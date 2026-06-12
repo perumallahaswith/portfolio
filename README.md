@@ -1,1 +1,1 @@
-this is an portfolio using bootstrap with html and js as core
+this is my portfolio using bootstrap with html and js as core
