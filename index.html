@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Perumalla Haswith | Full Stack Developer Portfolio</title>
+<meta name="description" content="Perumalla Haswith, B.Tech IT student at Vasavi College of Engineering. Java, Spring Boot, React, Node.js and system design.">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&family=Sora:wght@500;700;800&display=swap" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg fixed-top nav-glass">
+  <div class="container">
+    <a class="navbar-brand brand-mark" href="#home" aria-label="Perumalla Haswith, home">PH</a>
+    <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav" aria-label="Menu"><span class="navbar-toggler-icon"></span></button>
+    <div class="collapse navbar-collapse" id="nav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+        <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+        <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<header id="home" class="hero">
+  <canvas id="scene" aria-hidden="true"></canvas>
+  <div class="container hero-content">
+    <div class="row align-items-center g-4">
+      <div class="col-lg-7 order-2 order-lg-1">
+        <p class="hero-kicker">Hyderabad, India</p>
+        <h1>Perumalla Haswith</h1>
+        <p class="hero-sub">I build full stack and AI-integrated apps with Java, Spring Boot, React and Node.js, and I design them to scale.</p>
+        <div class="d-flex gap-3 flex-wrap">
+          <a href="#projects" class="btn btn-accent">See my projects</a>
+          <a href="assets/Haswith_Perumalla_Resume.pdf" class="btn btn-ghost" download>Download resume</a>
+        </div>
+        <p class="hero-hint">Move your mouse to rotate the network</p>
+      </div>
+      <div class="col-lg-5 order-1 order-lg-2 d-flex justify-content-center">
+        <div class="portrait" id="portrait"><img src="assets/photo.jpg" alt="Portrait of Perumalla Haswith" width="400" height="400"></div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main>
+<section id="about" class="section">
+  <div class="container">
+    <h2>About me</h2>
+    <div class="row g-5">
+      <div class="col-lg-7">
+        <p>I'm an Information Technology student at Vasavi College of Engineering, Hyderabad. I enjoy building responsive, user-friendly applications and learning new technologies to grow as a software developer.</p>
+        <p>My goal is to become a skilled full stack developer and contribute to projects with real-world impact. I like solving problems with Data Structures and Algorithms and writing clean, maintainable code.</p>
+        <div class="row g-3 mt-2">
+          <div class="col-md-4"><div class="interest tilt"><h3>Web development</h3><p>Modern, responsive interfaces with React, Bootstrap and vanilla JavaScript.</p></div></div>
+          <div class="col-md-4"><div class="interest tilt"><h3>Problem solving</h3><p>Regular DSA practice on LeetCode for interviews and competitive programming.</p></div></div>
+          <div class="col-md-4"><div class="interest tilt"><h3>Continuous learning</h3><p>Courses on NPTEL, Coursera and Udemy to keep up with the industry.</p></div></div>
+        </div>
+      </div>
+      <div class="col-lg-5">
+        <dl class="info">
+          <dt>Name</dt><dd>Perumalla Haswith</dd>
+          <dt>Email</dt><dd><a href="mailto:haswithperumalla45@gmail.com">haswithperumalla45@gmail.com</a></dd>
+          <dt>Phone</dt><dd>+91 6305772099</dd>
+          <dt>Location</dt><dd>Hyderabad, Telangana, India</dd>
+          <dt>College</dt><dd>Vasavi College of Engineering</dd>
+          <dt>Graduation</dt><dd>2028 (CGPA 8.74 / 10)</dd>
+        </dl>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="skills" class="section alt">
+  <div class="container">
+    <h2>Skills</h2>
+    <div class="row g-4">
+      <div class="col-md-6 col-lg-4"><div class="skill-card tilt"><h3>Languages</h3><span>C</span><span>Python</span><span>Java</span></div></div>
+      <div class="col-md-6 col-lg-4"><div class="skill-card tilt"><h3>Frontend</h3><span>HTML</span><span>CSS</span><span>React.js</span><span>Next.js</span><span>Bootstrap</span></div></div>
+      <div class="col-md-6 col-lg-4"><div class="skill-card tilt"><h3>Backend</h3><span>Node.js</span><span>Express.js</span><span>Spring Boot</span><span>REST APIs</span></div></div>
+      <div class="col-md-6 col-lg-4"><div class="skill-card tilt"><h3>Databases</h3><span>MySQL</span><span>PostgreSQL</span><span>MongoDB</span></div></div>
+      <div class="col-md-6 col-lg-4"><div class="skill-card tilt"><h3>Tools</h3><span>Git</span><span>GitHub</span><span>Docker</span><span>Postman</span></div></div>
+      <div class="col-md-6 col-lg-4"><div class="skill-card tilt"><h3>CS fundamentals</h3><span>DSA</span><span>OOP</span><span>DBMS</span><span>Operating Systems</span><span>Computer Networks</span></div></div>
+    </div>
+
+    <div class="sysdesign mt-5">
+      <h3>System design basics</h3>
+      <p>The concepts I've applied while building my microservices platform.</p>
+      <div class="row g-3">
+        <div class="col-md-6 col-lg-3"><div class="sd tilt"><h4>Load balancing and reverse proxy</h4><p>NGINX in front of services to spread traffic and hide internals.</p></div></div>
+        <div class="col-md-6 col-lg-3"><div class="sd tilt"><h4>Caching</h4><p>Redis for fast reads and scheduler coordination.</p></div></div>
+        <div class="col-md-6 col-lg-3"><div class="sd tilt"><h4>Message queues</h4><p>RabbitMQ as an async event bus between services.</p></div></div>
+        <div class="col-md-6 col-lg-3"><div class="sd tilt"><h4>Microservices and API gateway</h4><p>Separate gateway, identity, workflow and analytics services.</p></div></div>
+        <div class="col-md-6 col-lg-3"><div class="sd tilt"><h4>Database choice and scaling</h4><p>SQL vs NoSQL trade-offs, indexing, replication and sharding basics.</p></div></div>
+        <div class="col-md-6 col-lg-3"><div class="sd tilt"><h4>CAP theorem and consistency</h4><p>Choosing between consistency and availability.</p></div></div>
+        <div class="col-md-6 col-lg-3"><div class="sd tilt"><h4>Authentication</h4><p>Identity service, hashed passwords, session handling.</p></div></div>
+        <div class="col-md-6 col-lg-3"><div class="sd tilt"><h4>Containers</h4><p>Docker Compose to run and orchestrate services together.</p></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="projects" class="section">
+  <div class="container">
+    <h2>Projects</h2>
+    <div class="row g-4">
+      <div class="col-lg-4">
+        <article class="project tilt">
+          <h3>CodeRefine</h3>
+          <p class="sub">AI-powered developer workspace</p>
+          <p>Code review, rewriting and cross-language translation powered by LLaMA 3.3 70B on Groq Cloud. Has 10+ features, including bug and security detection, Big-O comparison and an AI interview simulator.</p>
+          <p class="tags">Python, Streamlit, Groq API, SQLite</p>
+          <a href="https://github.com/perumallahaswith/CodeRefine" target="_blank" rel="noopener">View on GitHub</a>
+        </article>
+      </div>
+      <div class="col-lg-4">
+        <article class="project tilt">
+          <h3>AI Web Intelligence Platform</h3>
+          <p class="sub">Microservices automation platform</p>
+          <p>7+ Spring Boot services run with Docker Compose. A Node.js scraper (Puppeteer, Cheerio) feeds RabbitMQ and Redis, with a React dashboard, workflow builder and NGINX proxy.</p>
+          <p class="tags">React, Spring Boot, Node.js, MongoDB, RabbitMQ, Redis, Docker</p>
+          <a href="https://github.com/perumallahaswith/ai-autonomous-web-intelligence-automation-platform" target="_blank" rel="noopener">View on GitHub</a>
+        </article>
+      </div>
+      <div class="col-lg-4">
+        <article class="project tilt">
+          <h3>DNA Sequence Analysis</h3>
+          <p class="sub">Bioinformatics tool in C</p>
+          <p>Nucleotide counting, GC-content and reverse-complement in O(n), plus Naive and KMP pattern matching in O(n + m) using arrays, hash maps and stacks.</p>
+          <p class="tags">C, Data Structures, Algorithms</p>
+          <a href="https://github.com/perumallahaswith/dna-sequence-analysis-data-structure-using-c" target="_blank" rel="noopener">View on GitHub</a>
+        </article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="education" class="section alt">
+  <div class="container">
+    <h2>Education and achievements</h2>
+    <div class="row g-4">
+      <div class="col-lg-4"><div class="skill-card tilt"><h3>Education</h3><p class="mb-1">B.Tech in Information Technology</p><p class="mb-1">Vasavi College of Engineering</p><p class="mb-0">Graduating 2028, CGPA 8.74 / 10</p></div></div>
+      <div class="col-lg-4"><div class="skill-card tilt"><h3>Certification</h3><p class="mb-0">NPTEL: The Joy of Computing Using Python, scored 80%.</p></div></div>
+      <div class="col-lg-4"><div class="skill-card tilt"><h3>Achievement</h3><p class="mb-0">Participated in Tech Savishkar, a college-level hackathon at Vasavi College of Engineering.</p></div></div>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="section">
+  <div class="container text-center">
+    <h2>Let's work together</h2>
+    <p class="lead-sm">I'm open to internships, collaborative projects and learning from experienced developers.</p>
+    <div class="d-flex gap-3 justify-content-center flex-wrap">
+      <a class="btn btn-accent" href="mailto:haswithperumalla45@gmail.com">Email me</a>
+      <a class="btn btn-ghost" href="https://www.linkedin.com/in/haswith-perumalla-70b59a357" target="_blank" rel="noopener">LinkedIn</a>
+      <a class="btn btn-ghost" href="https://github.com/perumallahaswith" target="_blank" rel="noopener">GitHub</a>
+      <a class="btn btn-ghost" href="https://leetcode.com/haswithh_1" target="_blank" rel="noopener">LeetCode</a>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="foot">© 2026 Perumalla Haswith. All rights reserved.</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
